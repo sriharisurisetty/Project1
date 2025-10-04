@@ -1,0 +1,31 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint ./src/**/*.ts",
+    "dev": "nodemon ./src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "typescript",
+    "web-development",
+    "srihari"
+  ],
+  "author": "Srihari Surisetty",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/jest": "^30.0.0",
+    "eslint": "^9.36.0",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.10",
+    "ts-jest": "^29.4.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.45.0"
+  }
+}
